@@ -1,21 +1,19 @@
 L'ordre inverse
 
-J'ai ajouté une seconde fonction, AppliqueOrdreInverse(), qui fait la translation avant la rotation — l'inverse de ce que fait le cours.
+J’ai ajouté une seconde version du calcul, notée AppliqueOrdreInverse(), qui applique d’abord la translation puis la rotation. C’est l’envers du comportement standard enseigné dans le cours, et c’est précisément ce qui fait apparaître le décalage du point de pivot.
 
-Le programme affiche les deux résultats pour la même pose et le même point. Quatre cas testés :
+Pour le vérifier, le programme compare les deux résultats sur le même point et la même pose. J’ai testé plusieurs configurations :
 
-1. Cas général (position (1,2,3), rotation 90° autour de y, point (0,0,-1)) : les deux ordres donnent des résultats différents, (0, 2, 3) contre (2, 2, -1). C'est le comportement attendu — c'est le bug du pivot que décrit le cours.
+1. Cas classique : position $(1,2,3)$, rotation de 90° autour de $y$, point $(0,0,-1)$. Les deux ordres ne donnent pas le même résultat : $(0,2,3)$ contre $(2,2,-1)$. C’est bien le phénomène décrit par le cours, c’est-à-dire le bug lié au point de rotation.
 
-2. Avec une rotation identité (pas de vraie rotation) : les deux
-   ordres coïncident, logiquement, puisqu'il n'y a rien à "mal
-   ordonner".
+2. Rotation nulle : si l’angle vaut 0, les deux méthodes reviennent au même résultat, puisqu’il n’y a plus de rotation à faire.
 
-3. Avec une translation nulle : les deux ordres coïncident aussi, puisque seule la rotation compte alors.
+3. Translation nulle : même logique, car il ne reste alors qu’une simple rotation et il n’y a pas de décalage à appliquer.
 
-4. Cas plus surprenant que j'ai trouvé en cherchant : même avec une translation ET une rotation non nulles, si la translation est alignée sur l'axe de rotation (ici, translation le long de l'axe y, rotation autour de l'axe y), les deux ordres coïncident aussi.
+4. Cas particulier intéressant : si la translation est alignée avec l’axe de rotation, les résultats restent identiques même si la rotation n’est pas nulle. C’est une situation où le vecteur de translation est invariant sous la rotation.
 
-Pourquoi ça coïncide dans ces cas
+Pourquoi il y a des cas où ça coïncide
 
-Mathématiquement, "ordre correct" donne R·p + t, et "ordre inverse" donne R·(p+t) = R·p + R·t. Les deux sont égaux si et seulement si t = R·t, c'est-à-dire si la translation t est un point fixe de la rotation R. C'est vrai dans deux cas triviaux (R = identité, ou t = 0), mais aussi dans un cas moins évident : quand t se trouve exactement sur l'axe de rotation, puisqu'une rotation ne déplace pas les points situés sur son propre axe.
+Mathématiquement, l’ordre standard donne $R \cdot p + t$, tandis que l’ordre inverse donne $R \cdot (p + t) = R \cdot p + R \cdot t$. Les deux expressions sont égales si et seulement si $t = R \cdot t$, donc si la translation est un point fixe de la rotation. Cela se produit naturellement quand $R$ est l’identité, quand $t = 0$, ou encore quand $t$ appartient à l’axe de rotation, puisqu’une rotation ne déplace pas les points situés sur cet axe.
 
-Fichier joint : exo3_ordre_inverse.cpp
+Le fichier associé est exo3_ordre_inverse.cpp.

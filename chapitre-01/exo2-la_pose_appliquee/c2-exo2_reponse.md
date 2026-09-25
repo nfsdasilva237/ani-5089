@@ -1,4 +1,4 @@
-# La pose appliquée
+La pose appliquée
 
 J'ai fait une structure Pose (position + quaternion), avec une fonction
 Applique() qui suit l'ordre du cours : rotation d'abord, translation
