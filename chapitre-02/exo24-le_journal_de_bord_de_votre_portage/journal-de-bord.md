@@ -1,4 +1,4 @@
-Symptôme : <message exact copié, pas résumé>
-J'ai cru : <votre hypothèse sur le moment>
-C'était : <la vraie cause>
-Temps perdu : <nombre> minutes
+Symptôme : No .jenga workspace file found
+J'ai cru : que mon fichier projet.jenga était mal écrit
+C'était : il manquait le bloc workspace autour du project
+Temps perdu : 25 minutes
