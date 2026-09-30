@@ -1,0 +1,13 @@
+from Jenga import *
+
+with workspace("MaSalleWks", location="."):
+    configurations(["Debug", "Release"])
+
+    with project("MaSalle"):
+        consoleapp()   # windowedapp() si votre chaîne le demande (voir le cours)
+        language("C++")
+        cppdialect("C++17")
+        location(".")
+        files(["src/**.cpp"])
+        targetdir("Build/Bin/%{cfg.buildcfg}/%{cfg.system}")
+        objdir("Build/Obj/%{cfg.buildcfg}/%{cfg.system}")
