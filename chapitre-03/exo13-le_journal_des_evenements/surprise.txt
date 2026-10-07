@@ -1,0 +1,5 @@
+﻿Le type qui m'a surpris est Redimensionnement. Je m'attendais à voir la souris en tête, puisque j'ai bougé presque tout le temps. En réalité, Redimensionnement représente presque la moitié du journal, avec 1275 événements contre 1008 pour Souris. J'avais pourtant tiré le bord de la fenêtre pendant seulement quelques secondes.
+
+L'explication est surtout technique : le système envoie un événement à chaque étape de redimensionnement, pas seulement au moment où l'on relâche la souris. Pendant quelques secondes, cela peut générer plusieurs centaines d'entrées. Donc un rappel de redimensionnement lourd, comme le recalcul de surfaces ou de textures, devient plus coûteux qu'il n'y paraît.
+
+J'ai aussi remarqué que Touche apparaît 191 fois, alors que j'ai appuyé sur quelques touches seulement. C'est normal : un appui prolongé déclenche des répétitions automatiques. L'important est que le moteur envoie des événements redondants, surtout dans les boucles de mise à jour.
