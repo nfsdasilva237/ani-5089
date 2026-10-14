@@ -1,0 +1,10 @@
+Classement du plus cher au moins cher (surcoût vs 3D seul) :
+
+1) <nom> : +<valeur> us
+2) <nom> : +<valeur> us
+3) <nom> : +<valeur> us
+4) <nom> : +<valeur> us
+5) <nom> : +<valeur> us
+6) <nom> : +<valeur> us
+
+Remplir avec les vrais mesures prises dans mesures.txt.

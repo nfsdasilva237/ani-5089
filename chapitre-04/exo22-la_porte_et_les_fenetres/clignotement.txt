@@ -1,0 +1,9 @@
+Observation :
+- Une ouverture est visible lorsque la lumière passe dans une zone sans obstacle.
+- La fenêtre et la porte ne sont pas des objets à part entière ; elles sont surtout des trous dans un mur.
+- Le clignotement, s'il apparaît, vient d'un mauvais ratio entre la taille de l'ouverture et la largeur du mur, ou d'un aabb trop serré.
+
+Vérification :
+- garder les murs épais et nettement plus larges que l'ouverture ;
+- vérifier que les éléments ne se chevauchent pas en profondeur ;
+- tester avec des tailles de panneaux simples, puis augmenter la complexité.

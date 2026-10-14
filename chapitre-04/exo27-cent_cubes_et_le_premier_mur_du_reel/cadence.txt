@@ -1,0 +1,14 @@
+Un par un :
+- nombre de cubes : 100
+- drawCalls : 100
+- FPS : 58
+
+Groupés :
+- drawCalls : 1
+- FPS : 60
+- nouveau seuil : 100 cubes sans perte nette de fluidité
+
+Trouvé :
+- Nom : NkDrawCallInstanced / SubmitInstanced
+- Fichiers : NkRendererTypes.h et NkRender3D.h
+- Piège : aabb trop petit ou absent -> cubes qui disparaissent.

@@ -1,0 +1,3 @@
+Plateau : le dessus est à 0,75 et le plateau est épais de 0,05, donc son centre est à y = 0,75 - 0,05/2 = 0,725.
+
+Pieds : un pied va du sol (y = 0) au dessous du plateau (y = 0,70), donc il mesure 0,70 m. Son centre est à y = 0,70/2 = 0,35.

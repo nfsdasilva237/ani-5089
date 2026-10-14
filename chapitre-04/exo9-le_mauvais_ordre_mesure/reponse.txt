@@ -1,0 +1,3 @@
+Facteur : chaque coordonnée de la translation est multipliée par l'échelle de son axe : ×4 en x, ×2,5 en y, ×0,1 en z. Ici le mur monte de 1,25 à 3,125 m, flottant au-dessus du sol, et recule de -2 à -0,2 m.
+
+Pourquoi : avec Scale * Translate, la translation s'applique d'abord et l'échelle ensuite à tout le résultat. L'échelle étire donc aussi le déplacement, pas seulement le cube. Les matrices ne commutent pas.

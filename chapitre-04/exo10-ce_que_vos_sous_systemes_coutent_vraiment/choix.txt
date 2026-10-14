@@ -1,0 +1,11 @@
+Je garde :
+- <nom> : <coût> us
+- <nom> : <coût> us
+- <nom> : <coût> us
+
+Pourquoi :
+- <nom> : <raison>
+- <nom> : <raison>
+- <nom> : <raison>
+
+Le budget 11 ms est un plafond global. Décrire pourquoi chaque sous-système gardé a un bénéfice réel pour le rendu final.

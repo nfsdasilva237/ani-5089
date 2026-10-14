@@ -1,0 +1,14 @@
+Direction :
+- Valeur testée : Nord-Ouest (-0.9, -1.0, -0.2)
+- Effet sur la salle : la zone de gauche est mieux éclairée, les murs latéraux gardent du contraste et le cube reste lisible.
+- Gain/perte de lisibilité : gain net de lisibilité sur le volume principal, avec quelques ombres plus marquées au sol.
+
+Intensité :
+- Valeur testée : 1.5 (faible) puis 5.0 (forte)
+- Effet sur la salle : l’intensité faible place un éclairage doux, l’intensité forte nettoie les ombres mais écrase les détails.
+- Gain/perte de lisibilité : la mesure 1.5 garde plus de relief ; la mesure 5.0 augmente la clarté globale mais réduit le contraste sur les faces sombres.
+
+Ombres :
+- Valeur testée : castShadow = true
+- Effet sur la salle : les ombres donnent de la profondeur et séparent les volumes autour du cube et du sol.
+- Gain/perte de lisibilité : gain de compréhension de la scène, surtout pour la position relative des objets ; sans ombre la scène paraît plus plate.

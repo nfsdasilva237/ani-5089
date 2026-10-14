@@ -1,0 +1,9 @@
+Observation :
+- Le cube de référence est centré dans le monde, avec un sol de taille 6 x 6.
+- Le centre du cube doit être à y = 0.5 pour une boîte de taille 1 x 1 x 1.
+- Le rendu stable dépend de la combinaison Translate(centre) * Scale(taille), puis d'un aabb cohérent.
+
+Diagnostic :
+- Si le cube semble flotter, vérifier la position du centre et la hauteur du sol.
+- Si le cube est déformé, vérifier l'ordre des matrices.
+- Si le cube disparaît, vérifier le aabb et la caméra.

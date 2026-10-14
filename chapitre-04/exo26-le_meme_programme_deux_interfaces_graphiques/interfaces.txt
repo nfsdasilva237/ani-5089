@@ -1,0 +1,10 @@
+Première :
+- API : OpenGL | temps moyen : 16.8 ms
+
+Seconde :
+- API : Software | temps moyen : 21.4 ms
+
+Différences :
+- OpenGL est plus rapide en moyenne par image, donc meilleur pour le rendu 3D interactif.
+- Software est plus lent et moins stable sur les scènes dynamiques, avec plus de latence visuelle.
+- Le gain d’OpenGL est surtout visible dans le confort du déplacement et la fluidité du rendu.

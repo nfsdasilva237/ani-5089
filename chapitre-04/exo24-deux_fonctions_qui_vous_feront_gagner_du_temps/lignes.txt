@@ -1,0 +1,13 @@
+PoserAuSol(taille, x, z) :
+- Translate({x, taille.y * 0.5f, z})
+- Scale(taille)
+- Résultat : le centre du modèle est placé à mi-hauteur du cube, au-dessus du sol.
+
+PoserSurTable(taille, x, z) :
+- Translate({x, 0.75f + taille.y * 0.5f, z})
+- Scale(taille)
+- Résultat : l'objet est posé sur une table de hauteur 0.75, plus sa demi-hauteur.
+
+Règle :
+- la table impose un décalage vertical constant de 0.75 ;
+- la demi-hauteur de l'objet corrige la position du centre.
