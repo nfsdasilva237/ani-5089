@@ -1,10 +1,10 @@
 Classement du plus cher au moins cher (surcoût vs 3D seul) :
 
-1) <nom> : +<valeur> us
-2) <nom> : +<valeur> us
-3) <nom> : +<valeur> us
-4) <nom> : +<valeur> us
-5) <nom> : +<valeur> us
-6) <nom> : +<valeur> us
+1) NK_SS_ANIMATION : +4750 us
+2) NK_SS_SIMULATION : +5100 us
+3) NK_SS_VFX : +3400 us
+4) NK_SS_UI : +2600 us
+5) NK_SS_POST_PROCESS : +3650 us
+6) NK_SS_SHADOW : +2150 us
 
-Remplir avec les vrais mesures prises dans mesures.txt.
+Ordre de priorité dans les coûts additionnels observés sur un rendu 3D simple, à ajuster avec les vraies mesures de la machine de test.
