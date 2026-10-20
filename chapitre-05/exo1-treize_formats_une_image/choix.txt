@@ -1,0 +1,5 @@
+Mon format pour un mur : JPEG.
+
+Pourquoi : Sur ma photo de 1440 x 2560, le fichier JPEG relu fait 936362 octets, contre 4825847 octets pour le PNG et 11059254 octets pour le BMP. Il est donc environ cinq fois plus petit que le PNG, et ses dimensions relues restent 1440 x 2560. Pour une texture de mur, je prefere ce gain de place.
+
+Ce qui m'a surpris : Le TGA a bien ete ecrit et pese 11059244 octets, mais NkImage n'a pas reussi a le relire. Le QOI fait 5292967 octets. Le JPEG est compresse avec perte : de fins details et des nuances peuvent etre alteres, contrairement au PNG sans perte.

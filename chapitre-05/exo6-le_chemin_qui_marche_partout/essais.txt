@@ -1,0 +1,4 @@
+avant, projet : Lance depuis chapitre-05/exo4-le_premier_mur_texture, le chemin relatif murs/photo.jpg trouve la photo et le mur affiche sa texture.
+avant, Build : Lance depuis Build/Bin/Release-Windows/MurTexture, le chemin relatif ne trouve pas la photo; le mur perd sa texture. Journal : [2026-10-20 19:10:46.287] [ERR] [default] [NkTextureLibrary.cpp:478 in Load] -> [NkTextureLibrary] Echec chargement texture : murs/photo.jpg
+apres, projet : Lance depuis chapitre-05/exo6-le_chemin_qui_marche_partout, LocateResource trouve la photo dans le dossier de l'exercice 4 et le mur est texture.
+apres, Build : Lance depuis Build/Bin/Release-Windows/CheminRessource, LocateResource retrouve la meme photo en remontant jusqu'a la racine du depot; le mur est texture.

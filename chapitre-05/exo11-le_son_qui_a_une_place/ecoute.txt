@@ -1,0 +1,9 @@
+﻿Position 1 : Près de la fenêtre, la pluie me semble en face et un peu sur le côté.
+
+Position 2 : Au centre, elle paraît un peu à droite et plus lointaine.
+
+Position 3 : Dans le coin opposé, l'écoute me paraît presque pareille aux autres positions.
+
+Sans positional : Même sans positional, j'entends encore le bruit à gauche; il me paraît fort. À l'écoute, la différence attendue n'est donc pas nette.
+
+Ce que les mesures montrent : en mode positionnel, la source à gauche donne G 0,080020 et D 0,000000; devant, G et D valent 0,056748; à droite, G vaut 0,000000 et D 0,080020. Sans positional, les trois positions donnent G = D = 0,157344. Les mesures montrent une séparation gauche-droite nette en mode positionnel, mais mon écoute sans positional reste à gauche et forte, ce qui ne correspond pas à l'égalité mesurée entre les oreilles.

@@ -1,0 +1,5 @@
+Ma texture : J'ai utilise la photo personnelle du mur en beton, murs/photo.jpg, en 1440 x 2560. Le programme la charge une fois avant la boucle et repete la projection avec un carre de 1 m.
+
+Ce que le mur a gagne : Avant, le mur du fond etait uni. Apres, son grain et ses petites marques sont visibles; la texture parait assez sombre dans cette salle, mais elle donne au mur davantage de detail.
+
+Ce qui m'a bloque : Au premier lancement, l'executable ne trouvait pas les ressources de shaders du kit. J'ai place le dossier Resources a cote de l'executable. La photo a ensuite ete trouvee; le journal annonce murs/photo.jpg en 1440x2560 sRGB.

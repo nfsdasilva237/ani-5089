@@ -1,0 +1,5 @@
+Lignes de mon premier son : 9 lignes, de l'appel Initialize à Shutdown inclus.
+
+Latence calculee et annoncee : un tampon de 256 trames à 48 000 Hz dure 256 / 48 000 = 0,00533 s, soit 5,33 ms. Le moteur annonce 22 ms, environ 4,1 tampons. Une image à 60 images/s dure environ 16,67 ms : la latence annoncée dépasse cette durée d'environ 5,33 ms.
+
+Pourquoi pas dans la boucle de rendu : l'initialisation et le lancement d'une voix se font une fois au démarrage. Les répéter à chaque image risquerait de recréer des voix et de perturber le rendu; le moteur audio joue en parallèle.

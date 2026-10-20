@@ -1,0 +1,5 @@
+Ce qui a change : Avant, murs/photo.jpg etait cherche depuis le dossier courant. Depuis le dossier de l'exercice 4, le fichier etait trouve; depuis Build/Bin/Release-Windows/MurTexture, il manquait et le journal signalait l'echec. Apres correction, les deux lancements affichent la texture.
+
+Ce que LocateResource essaie : D'apres le commentaire de NkPath.h, la fonction cherche d'abord dans le dossier courant, puis dans celui de l'executable, dans les parents de l'executable (huit niveaux au plus), puis dans les parents du dossier courant (huit niveaux au plus). Elle rend un chemin absolu quand elle trouve la ressource, et une chaine vide sinon. Ici, elle remonte jusqu'a la racine du depot pour trouver le fichier de l'exercice 4.
+
+Deja vu avec fopen : Le mecanisme est le meme qu'avec fopen : un chemin relatif part du dossier courant. Je n'avais pas anticipe que ce dossier changerait selon la facon de lancer l'application; la comparaison des deux essais a rendu la cause claire.

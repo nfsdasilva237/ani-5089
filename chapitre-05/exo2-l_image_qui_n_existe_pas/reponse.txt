@@ -1,0 +1,5 @@
+Ce que rend Load : false. IsValid() rend false et Width() et Height() valent 0, comme l'affiche la ligne du programme recopiee dans journal.txt.
+
+Pourquoi rien ne plante : l'echec est un retour false et l'image reste invalide. Le programme ne lit pas ses pixels. Pour la texture, NkTextureLibrary consigne l'echec puis rend sa texture d'erreur au lieu d'interrompre le rendu.
+
+Ce que montre le mur : le mur du fond recoit le marqueur magenta du moteur, sa texture d'erreur 1 x 1. La salle continue de se dessiner; le journal nomme le chemin introuvable murs/nexistepas.png.

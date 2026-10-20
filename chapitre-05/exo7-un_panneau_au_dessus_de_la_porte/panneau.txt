@@ -1,0 +1,8 @@
+atlas : 512 x 512
+image : 72 x 32
+
+Ma police et sa taille : Inter embarquee dans le moteur, rasterisee a 32 px. L'atlas mesure 512 x 512 pixels et l'image du mot Sortie mesure 72 x 32 pixels.
+
+A trois metres : Depuis (-0,70 ; 1,70 ; 1,00), le panneau de 0,45 m x 0,20 m est vu a trois metres. Sa taille apparente est plus petite qu'a cinquante centimetres; les contours restent ceux de l'image rasterisee a partir des glyphes de 32 px.
+
+A cinquante centimetres : Depuis (-0,70 ; 2,20 ; -1,50), la meme image de 72 x 32 pixels est vue a cinquante centimetres. Elle prend davantage de place dans le champ; sa definition reste limitee par l'image et l'atlas de police de 32 px.

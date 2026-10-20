@@ -1,0 +1,5 @@
+La loi physique : pour la pression acoustique d'une source ponctuelle, le niveau varie comme 1/d. Le modèle INVERSE suit cette tendance dans les mesures : à 2, 4 et 8 m, les gains sont 0,500, 0,250 et 0,125. EXPONENTIAL donne les mêmes valeurs échantillonnées avec rolloff 1, mais sa baisse devient plus forte avec rolloff 2.
+
+Ce que change rolloff : NONE reste à 1,000 partout. INVERSE passe à 0,334, 0,143 et 0,067 à 2, 4 et 8 m (au lieu de 0,500, 0,250 et 0,125). LINEAR baisse plus doucement : 0,980, 0,940 et 0,859 au lieu de 0,990, 0,970 et 0,929. EXPONENTIAL baisse le plus : 0,250, 0,063 et 0,016 au lieu de 0,500, 0,250 et 0,125.
+
+Pour la porte du couloir : je choisirais INVERSE, car une porte qui grince se comporte comme une source ponctuelle; le gain mesuré reste 0,125 à 8 m avec rolloff 1, tout en suivant la décroissance physique. À l'écoute, INVERSE et LINEAR m'ont semblé presque pareils à 1 m comme à 8 m. Le son paraissait un peu à droite et assez lointain; j'ai eu une impression similaire dans les autres essais.

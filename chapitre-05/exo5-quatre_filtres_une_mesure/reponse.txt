@@ -1,0 +1,5 @@
+Ce que la comparaison montre : Sur 65 536 pixels, nearest differe du bilineaire sur 60 654 pixels. Bicubic et Lanczos3 donnent ici 0 pixel different du bilineaire; leurs PNG ont aussi le meme contenu. Le resultat observe est donc que ces deux filtres n'ont pas ajoute de difference visible a cette reduction sur cette image.
+
+L'ecart de temps que j'accepte : Bicubic a pris 1 209,7 us contre 1 562,9 us pour bilinear, soit 353,2 us de moins sur cette execution. J'accepte aussi un ecart de l'ordre de la milliseconde lors de la preparation ou du chargement d'une texture, car ce travail ne revient pas a chaque image de la boucle.
+
+Dans quel contexte : Pour cette photo, je choisirais bicubic pour une reduction faite au chargement : son image est identique a bilinear sur les 65 536 pixels compares et son temps mesure est inferieur de 353,2 us. Nearest est rapide (234,8 us), mais ses 60 654 pixels differents montrent qu'il modifie fortement le resultat.

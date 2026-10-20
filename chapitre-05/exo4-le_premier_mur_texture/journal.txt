@@ -1,0 +1,1 @@
+﻿[2026-10-20 18:57:50.993] [INF] [default] [NkTextureLibrary.cpp:512 in Load] -> [NkTextureLibrary] Texture chargee : murs/photo.jpg (1440x2560 sRGB)
