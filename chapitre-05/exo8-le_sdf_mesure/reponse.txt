@@ -1,0 +1,5 @@
+﻿A trois metres : Les captures montrent le mot Sortie depuis le point de vue demandé. À cette distance, les deux versions restent lisibles; la différence de contour est moins visible parce que le panneau occupe peu de place dans l'image.
+
+A cinquante centimetres : En comparant les vues rapprochées, l'image ordinaire agrandie paraît plus douce et floue, tandis que le SDF garde un bord plus net. J'ai retenu s = 0,08 : la transition du smoothstep est assez large pour réduire les escaliers tout en gardant un contour lisible.
+
+Ma conclusion : Les atlas Inter à 32 px mesurent chacun 512 x 512, soit 262 144 octets en Alpha8. L'atlas ordinaire à 128 px mesure 2048 x 2048, soit 4 194 304 octets : seize fois plus de mémoire que chacun des atlas 32. À taille d'image de panneau égale, le SDF améliore surtout le contour vu de près sans exiger un atlas plus grand que l'ordinaire 32.
