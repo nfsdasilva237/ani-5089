@@ -1,0 +1,5 @@
+Le rapport : en Release, la matrice suivie de la conversion prend en moyenne 126,24 ms par million d’itérations; le produit direct de quaternions prend 57,51 ms. La première méthode est environ 2,20 fois plus lente. En Debug, les moyennes sont 591,92 ms et 123,96 ms, soit un rapport de 4,78. La vérification sur un lacet de 37° et un tangage de 21° donne un écart quaternion de 0,00000004.
+
+Le coût par image : en Release, cela représente 126,24 ns par image pour les matrices et 57,51 ns pour les quaternions, en supposant un calcul de tête par image. Sur un budget de 11 ms, les parts sont respectivement 0,001147 % et 0,000523 %.
+
+Ce que je pense du choix : la matrice avec conversion est mesurablement plus chère ici, mais elle consomme à peine 0,0012 % du budget par image. Le choix du simulateur est donc raisonnable pour une seule tête. L’affirmation « quelques dizaines de nanosecondes » décrit mieux le quaternion direct que le calcul matriciel mesuré, qui dépasse cent nanosecondes sur ce poste.

@@ -1,0 +1,5 @@
+Ce qui diffère le plus : la carte montre les contours de la porte et des murs. Avec le décalage des yeux, 11 707 pixels sur 460 800 dépassent le seuil de différence 1, et l'écart maximal vaut 64 sur l'échelle amplifiée de la carte.
+
+Pourquoi là : les contours proches se déplacent davantage entre les vues gauche et droite. La porte et les bords des murs sont donc visibles dans la carte, qui sert d'indice de profondeur.
+
+Ce que prouve le noir : sans décalage, les deux rendus comparés sont identiques au seuil choisi : 0 pixel différent et un écart maximal nul. Cela ne prouve ni que l'image est correcte, ni qu'elle n'est pas entièrement noire ou blanche.

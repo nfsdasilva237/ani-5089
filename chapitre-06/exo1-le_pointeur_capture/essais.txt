@@ -1,0 +1,7 @@
+Avec CaptureMouse seul : lance avec MASALLE_CLIP=0. La salle reste noire (787 images avant fermeture). Je n'ai pas pu observer correctement le comportement du pointeur ; ce premier essai n'est donc pas concluant.
+
+Ce qui le retient : Non conclu, car le rendu reste noir et je n'ai pas note le comportement du pointeur.
+
+Deux appuis de suite : Non teste.
+
+Fermeture sans relacher : Non teste. Le programme appelle toutefois RelacherPointeur a la fermeture pour liberer le confinement, la capture et les appels de masquage.

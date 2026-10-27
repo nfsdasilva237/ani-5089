@@ -1,0 +1,5 @@
+Pourquoi cette direction : Dans le repère main droite de la salle, l'avant vaut -Z et le haut +Y. Un lacet positif de 90° tourne l'avant vers -X ; l'attendu (-1.000, 0.000, 0.000) est écrit en dur.
+
+L'épreuve qui sait dire non : Avec le bon signe, les trois tests passent (code 0). En inversant le signe, le test à 90° obtient (1.000, 0.000, 0.000) au lieu de (-1.000, 0.000, 0.000), échoue et rend le code 1.
+
+Ce que la souris ne permettait pas : Poser directement lacet, tangage et position rend les tests déterministes et répétables sans déplacer la souris ni ouvrir une fenêtre.

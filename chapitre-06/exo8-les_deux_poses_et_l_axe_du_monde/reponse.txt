@@ -1,0 +1,5 @@
+Quand les deux méthodes s'accordent : pour la pose neutre, l'axe droit de la tête et l'axe X du monde sont tous deux +X. Les positions des yeux coïncident et l'écart mesuré vaut 0,000 mm.
+
+Quand elles divergent : avec le roulis de 30°, l'écart entre les yeux gauches calculés par les deux méthodes vaut 16,306 mm. Avec le lacet de 90°, il vaut 44,548 mm. Le décalage dans le repère du monde reste horizontal, alors que la droite de la tête tourne avec son orientation.
+
+Ce qu'un visiteur sentirait : placer les yeux au mauvais endroit change leur disparité, donc la profondeur apparente et l'alignement des objets vus par les deux yeux. L'erreur devient particulièrement visible quand la tête est inclinée ou tournée.

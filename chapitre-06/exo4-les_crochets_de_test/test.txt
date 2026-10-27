@@ -1,0 +1,11 @@
+Lancement correct :
+lacet 90, tangage 0 : attendu (-1.000, 0.000, 0.000), obtenu (-1.000, 0.000, 0.000), OK
+lacet 0, tangage 30 : attendu (0.000, 0.500, -0.866), obtenu (-0.000, 0.500, -0.866), OK
+lacet 180, tangage 0 : attendu (0.000, 0.000, 1.000), obtenu (0.000, 0.000, 1.000), OK
+code de sortie : 0
+
+Lancement avec le signe du lacet inverse :
+lacet 90, tangage 0 : attendu (-1.000, 0.000, 0.000), obtenu (1.000, 0.000, 0.000), ECHEC
+lacet 0, tangage 30 : attendu (0.000, 0.500, -0.866), obtenu (0.000, 0.500, -0.866), OK
+lacet 180, tangage 0 : attendu (0.000, 0.000, 1.000), obtenu (-0.000, 0.000, 1.000), OK
+code de sortie : 1

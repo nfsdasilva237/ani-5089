@@ -1,0 +1,26 @@
+from Jenga import *
+
+with workspace("CoutTete", location="."):
+	useconfig("C:/Users/useer/nkentseu/Kits/R3D/R3D.jenga")
+	configurations(["Debug", "Release"])
+
+	with toolchain("nk-windows-clang-mingw", "clang"):
+		settarget("Windows", "x86_64", "mingw")
+		targettriple("x86_64-w64-windows-gnu")
+		ccompiler("C:/Users/useer/AppData/Local/Programs/NKCode/tools/compilers/llvm-mingw/bin/clang.exe")
+		cppcompiler("C:/Users/useer/AppData/Local/Programs/NKCode/tools/compilers/llvm-mingw/bin/clang++.exe")
+		linker("C:/Users/useer/AppData/Local/Programs/NKCode/tools/compilers/llvm-mingw/bin/clang++.exe")
+		archiver("C:/Users/useer/AppData/Local/Programs/NKCode/tools/compilers/llvm-mingw/bin/llvm-ar.exe")
+		cflags(["--target=x86_64-w64-windows-gnu"])
+		cxxflags(["--target=x86_64-w64-windows-gnu"])
+
+	with project("Cout"):
+		consoleapp()
+		language("C++")
+		cppdialect("C++17")
+		location(".")
+		files(["cout.cpp"])
+		user3d()
+		usetoolchain("nk-windows-clang-mingw")
+		with filter("config:Release"):
+			optimize("Speed")

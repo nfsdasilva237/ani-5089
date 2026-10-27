@@ -1,0 +1,7 @@
+Lecture du module : apres le mouvement, le lacet lu dans le module reste a 0.2 deg de t = 6.5 s a t = 12.0 s. Cette version relit le dernier delta conserve et le rejoue a chaque image.
+
+Accumule et vide : le lacet atteint 70.4 deg, puis reste a 70.4 deg pendant les sept releves. Les evenements sont additionnes, consommes une fois par image, puis l'accumulateur est remis a zero.
+
+Accumule sans vidage : la valeur passe de 44.5 deg a t = 6.5 s a 22418.6 deg a t = 12.0 s. L'accumulateur garde l'historique et cette somme est ajoutee de nouveau a chaque image.
+
+Ce que fait le vidage : il retire de l'accumulateur les deltas deja lus. La prochaine image ne reprend ainsi que les nouveaux mouvements, au lieu de rejouer ceux des images precedentes.

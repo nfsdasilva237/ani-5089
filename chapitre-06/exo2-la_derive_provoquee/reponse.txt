@@ -1,0 +1,7 @@
+Ma sensibilite : 0.002 radian par compte brut, soit environ 0.115 degre par compte.
+
+Vitesse de derive : 0.053 deg/s en moyenne entre t = 1.0 s et t = 20.0 s : (-2.4 - (-3.4)) / (20 - 1) = 1.0 / 19.
+
+D'ou vient ce chiffre : il vient des deux lacets releves par le programme, -3.4 deg a t = 1 s et -2.4 deg a t = 20 s. Le changement net est de 1.0 deg en 19 s. C'est une moyenne sur tout l'intervalle, pas la vitesse d'une derive stable.
+
+Pourquoi elle ne s'arrete pas : le code ajoute MouseRawDeltaX() au lacet a chaque image sans consommer ni remettre a zero le delta. Un delta non nul peut ainsi etre rejoue sur plusieurs images. Dans cette mesure, brut varie fortement d'une ligne a l'autre (de -13 a 13) ; elle ne montre donc pas un delta final constant et ne permet pas d'isoler proprement la derive souris immobile.

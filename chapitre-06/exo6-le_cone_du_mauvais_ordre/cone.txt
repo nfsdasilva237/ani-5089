@@ -1,0 +1,5 @@
+Ce que fait le monde : dans l'ordre correct, le regard reste a 30 degres au-dessus de l'horizon pendant le lacet. Dans l'ordre fautif, les hauteurs vont de 30 degres a -30 degres ; avec cd.up tourne par le quaternion, le monde semble basculer et rouler autour de la tete.
+
+Autour de quel axe : le cone fautif a pour axe (0, cos 30 degres, sin 30 degres), soit environ (0, 0.866, 0.500), l'axe vertical Y incline de 30 degres vers +Z. Les hauteurs symetriques mesurees a 45, 90, 135 et 180 degres (20.7048, 0, -20.7048, -30) le montrent.
+
+L'ordre fautif : tangage*lacet. Le tangage fixe autour de X est compose apres le lacet et incline l'axe de rotation suivi par le regard. lacet*tangage garde une elevation constante de 30 degres, comme une tete qui leve les yeux puis tourne autour de l'axe vertical du monde.

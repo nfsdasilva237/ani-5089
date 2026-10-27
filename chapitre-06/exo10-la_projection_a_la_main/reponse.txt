@@ -1,0 +1,5 @@
+Où vit le décentrage : dans mat[2][0] et mat[2][1]. Ces termes décalent le centre optique horizontalement et verticalement dans l’image. Les coefficients mat[0][0] et mat[1][1] règlent l’échelle du champ.
+
+Ce que valent ces termes en symétrique : les angles gauche/droite et haut/bas sont opposés, donc tanRight + tanLeft et tanUp + tanDown valent zéro. Les deux termes de décentrage sont alors nuls. Le plus grand écart avec Perspective mesuré est 5.96e-08, l’arrondi des flottants.
+
+Ce que j’ai vérifié de plus : pour les angles Quest (-52°, 45°, 48°, -50°), la matrice écrite à la main correspond à celle de NkCamera3D::SetFovAsym ; le plus grand écart mesuré est 1.04e-07. Le décentrage conserve donc les valeurs de l’en-tête en radians signés et le stockage par colonnes.
