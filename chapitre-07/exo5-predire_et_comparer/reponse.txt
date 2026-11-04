@@ -1,0 +1,5 @@
+﻿Le gain : Sur une rotation programmée à 30 deg/s, la prédiction donne 0,076 deg d'erreur moyenne contre 0,499 deg sans prédiction, soit un gain moyen d'un facteur 6,57. Le maximum baisse de 0,604 à 0,186 deg.
+
+D'où vient l'erreur qui reste : La vitesse est estimée à partir de deux poses; les intervalles réels fluctuent autour de la période demandée de 13,889 ms. La prédiction extrapole alors une vitesse légèrement décalée.
+
+Le facteur dix : Le rapport mesuré est 6,57; il n'atteint pas un facteur dix. Ce résultat concerne cette rotation programmée et cette cadence sur cette machine.

@@ -1,0 +1,3 @@
+﻿copies de la salle : 1; fréquence cible : 60 Hz
+sans verrou : moyenne 18,483 ms, ecart type 3,701 ms, max 29,941 ms (1000 intervalles)
+avec verrou : moyenne 34,403 ms, ecart type 0,694 ms, max 44,252 ms (1000 intervalles, MASALLE_VERROU=1)

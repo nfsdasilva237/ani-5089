@@ -1,0 +1,3 @@
+﻿Rotation programmée MASALLE_TOUR=30, MASALLE_HZ=72; N=1000 erreurs après 30 images de chauffe.
+avec prédiction : moyenne 0,076 deg, max 0,186 deg
+sans prédiction : moyenne 0,499 deg, max 0,604 deg

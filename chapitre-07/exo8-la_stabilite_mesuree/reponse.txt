@@ -1,0 +1,5 @@
+﻿Le nombre qui compte : Avec l'attente écran, le maximum est de 25,322 ms et les 3586 intervalles mesurés sur 3586 dépassent le budget de 11,111 ms à 90 Hz. Dans un casque, chaque dépassement retarde une image visible.
+
+Pourquoi pas la moyenne : La moyenne vaut 16,727 ms, mais le maximum atteint 25,322 ms (1,51 fois la moyenne). La moyenne seule masque les pointes, ici visibles aussi au p99 de 22,088 ms.
+
+Ce que l'écran change : Avec l'attente écran, la moyenne est de 16,727 ms; avec NK_VK_MAILBOX=1, elle est de 17,045 ms. Les résultats sont proches et le mode sans attente n'améliore pas cette scène sur cette machine. Le journal confirme Vulkan dans les deux essais; le rendu semble limité par le travail graphique.

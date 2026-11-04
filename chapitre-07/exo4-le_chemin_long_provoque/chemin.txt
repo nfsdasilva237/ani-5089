@@ -1,0 +1,9 @@
+﻿sans le test
+avant, image 809 : lacet 269,734 deg; vitesse +20,001 deg/s; delta.w +0,999994
+fautive, image 810 : lacet 270,012 deg; vitesse -20,002 deg/s; delta.w -0,999997
+apres, image 811 : lacet 270,358 deg; vitesse +19,998 deg/s; delta.w +0,999995
+
+avec le test
+avant, image 809 : vitesse +20,001 deg/s
+fautive, image 810 : vitesse corrigee +20,002 deg/s; delta.w corrige +0,999997
+apres, image 811 : vitesse +19,998 deg/s

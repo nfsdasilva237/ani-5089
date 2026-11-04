@@ -1,0 +1,5 @@
+Mes deux gestes : J'ai choisi un geste lent de 45 degrés en 1,2 s et un demi-tour de 180 degrés en 250 ms, pour opposer une évolution douce à un changement rapide.
+
+Où elle aide le moins : Le rapport sans/avec est 6,759 pour le demi-tour, contre 10,059 pour le geste rapide et 28,281 pour le lent. C'est donc le demi-tour qui profite le moins de la prédiction.
+
+Pourquoi là : Le modèle suppose une vitesse constante sur une période de 13,889 ms. Pendant un demi-tour brusque, la vitesse change beaucoup sur cet horizon : l'erreur prédite monte à 1,614 deg en moyenne et 2,693 deg au maximum.

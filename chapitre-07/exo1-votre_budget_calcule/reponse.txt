@@ -1,0 +1,5 @@
+﻿La fréquence de mon écran : Sur cet essai, la médiane des intervalles est 17,500 ms, soit environ 57,1 images/s; la cadence moyenne est 56,1 images/s. C'est proche d'un écran à 60 Hz, mais cette mesure de la scène ne donne pas seule la fréquence exacte de rafraîchissement.
+
+La cadence que je tiens : Sur 1000 intervalles, la moyenne vaut 17,817 ms (56,1 images/s), contre un budget de 13,889 ms à 72 Hz. La scène n'atteint donc pas 72 images/s.
+
+Ce que dit le maximum : Le maximum atteint 37,482 ms, soit presque trois budgets de 72 Hz; 995 intervalles sur 1000 dépassent le budget de 90 Hz (11,111 ms). La moyenne cache ces retards importants.

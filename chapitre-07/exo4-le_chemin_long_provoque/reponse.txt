@@ -1,0 +1,7 @@
+﻿L'image fautive : Au passage à 270,012 deg, l'échantillon 810 donne -20,002 deg/s alors que le tour programmé tourne à +20 deg/s. Les échantillons avant et après donnent respectivement +20,001 et +19,998 deg/s.
+
+Le rapport : La valeur négative a le signe opposé à la vitesse attendue; l'écart atteint 40,002 deg/s entre la valeur correcte et l'échantillon fautif. C'est une inversion sur un échantillon, pas une rotation complète de 360 deg.
+
+Pourquoi à ce lacet : Le quaternion mesuré a delta.w=-0,999997 au passage de 270 deg. Sans choisir l'équivalent de signe opposé, le calcul conserve un axe de rotation inversé.
+
+Ce qu'aurait vu le casque : Le casque aurait prédit un bref mouvement dans la mauvaise direction. En choisissant le chemin court, delta.w devient +0,999997 et la vitesse mesurée revient à +20,002 deg/s.

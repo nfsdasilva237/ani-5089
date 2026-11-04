@@ -1,0 +1,6 @@
+﻿budget 72 Hz : 13,889 ms
+budget 90 Hz : 11,111 ms
+budget 120 Hz : 8,333 ms
+mesure MASALLE_EXIT=1040 : moyenne 17,817 ms, mediane 17,500 ms, maximum 37,482 ms, ecart type 2,358 ms
+cadence moyenne observee : 56,1 images/s (1000 intervalles); estimation mediane : 57,1 Hz
+depassements du budget 90 Hz : 995 sur 1000

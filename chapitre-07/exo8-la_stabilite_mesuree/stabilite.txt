@@ -1,0 +1,3 @@
+﻿ecran : N=3586, moyenne 16,727 ms, mediane 16,539 ms, p99 22,088 ms, ecart type 1,738 ms, maximum 25,322 ms, hors budget 90 Hz=3586 (100 %)
+sans attente : N=3520, moyenne 17,045 ms, mediane 16,657 ms, p99 23,393 ms, ecart type 2,177 ms, maximum 25,948 ms, hors budget 90 Hz=3518 (99,94 %)
+backend : Vulkan dans les deux essais

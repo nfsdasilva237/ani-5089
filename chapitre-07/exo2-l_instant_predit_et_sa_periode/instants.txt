@@ -1,0 +1,4 @@
+﻿60 Hz : periode 16,667 ms; reel - predit moyen 4,355 ms (600 intervalles)
+72 Hz : periode 13,889 ms; reel - predit moyen 2,809 ms (600 intervalles)
+90 Hz : periode 11,111 ms; reel - predit moyen 8,315 ms (600 intervalles)
+120 Hz : periode 8,333 ms; reel - predit moyen 9,483 ms (600 intervalles)

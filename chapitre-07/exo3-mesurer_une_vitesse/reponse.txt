@@ -1,0 +1,5 @@
+﻿La série programmée : Avec MASALLE_TOUR=30, les vingt vitesses mesurées sont de 29,999 à 30,000 deg/s. Après le premier échantillon de démarrage, les intervalles varient de 10,066 à 34,753 ms; la vitesse estimée reste constante.
+
+La série souris : Le mode MASALLE_SOURIS_SIMULEE produit une trajectoire contrôlée. Les composantes mesurées vont de -58,323 à +65,408 deg/s, plus variables que le tour programmé. Cette série est simulée et ne remplace pas une mesure au geste.
+
+D'où vient le bruit : Les intervalles de cette courte série simulée vont de 10,676 à 25,670 ms. La cadence irrégulière et les variations du mouvement changent l'estimation instantanée; un geste humain ajouterait sa propre variation.

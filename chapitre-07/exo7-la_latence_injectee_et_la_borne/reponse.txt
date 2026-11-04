@@ -1,0 +1,5 @@
+﻿Où elle cesse de rattraper : Dans la plage mesurée jusqu'à 80 ms, la prédiction reste meilleure que l'absence de prédiction : à 80 ms, 4,152 deg contre 9,692 deg en moyenne. Elle ne cesse donc pas de rattraper dans cette plage. La borne intervient quand l'horizon dépasserait 100 ms.
+
+L'horizon sans borne : L'échantillon retenu est à 0,319 s; pour l'affichage à 1,214 s, l'horizon vaut 894,444 ms, soit 8,94 fois la borne de 100 ms.
+
+Ce que verrait le casque : Sans borne, le modèle extrapole 0,000 deg alors que la pose vraie vaut 49,899 deg; la pose affichée resterait en retard de 49,899 deg. La borne limite l'horizon de prédiction à 100 ms.

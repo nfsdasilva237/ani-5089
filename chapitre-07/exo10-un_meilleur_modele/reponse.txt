@@ -1,0 +1,5 @@
+Où il gagne : Le modèle à accélération réduit moyenne et maximum pour le geste rapide (0,111/0,270 deg contre 0,215/0,525), le lent (0,008/0,015 contre 0,016/0,030) et le demi-tour (0,455/1,408 contre 0,877/2,693).
+
+Où il perd : À l'arrêt brusque, sa moyenne est plus élevée : 0,058 deg contre 0,045 deg. Son maximum est plus faible (1,750 contre 2,000 deg), mais la moyenne montre que le modèle n'est pas meilleur sur toutes les poses.
+
+Pourquoi là : L'accélération estimée sur les trois dernières poses prolonge un changement récent. Au moment où la tête s'arrête net, cette estimation ne décrit plus le mouvement à venir et peut dégrader la prédiction.

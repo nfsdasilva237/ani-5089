@@ -1,0 +1,5 @@
+﻿Les deux écarts types : Sans verrou, l'écart type vaut 3,701 ms; avec verrou à 60 Hz, il vaut 0,694 ms. Le verrou rend donc les intervalles environ 5,3 fois plus réguliers.
+
+Ce que coûte le verrou : La moyenne passe de 18,483 ms à 34,403 ms, proche des deux périodes visées de 33,333 ms. Le maximum passe de 29,941 ms à 44,252 ms.
+
+La décision du moteur : Le verrou est utile si la régularité compte davantage que le débit maximal. Ici, il réduit nettement la variation, mais ralentit la cadence moyenne; le moteur devrait l'activer quand une cadence stable est préférable au rendu d'images aussi vite que possible.

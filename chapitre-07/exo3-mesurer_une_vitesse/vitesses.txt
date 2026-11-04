@@ -1,0 +1,45 @@
+﻿serie programme : MASALLE_TOUR=30, MASALLE_EXIT=60
+image 1 : dt = 57.965 ms, vitesse = (0.000, 29.999, 0.000) deg/s
+image 2 : dt = 34.753 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 3 : dt = 19.470 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 4 : dt = 13.165 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 5 : dt = 12.208 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 6 : dt = 14.653 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 7 : dt = 10.066 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 8 : dt = 13.266 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 9 : dt = 11.806 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 10 : dt = 10.682 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 11 : dt = 12.296 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 12 : dt = 11.782 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 13 : dt = 10.999 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 14 : dt = 13.075 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 15 : dt = 20.545 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 16 : dt = 11.937 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 17 : dt = 15.766 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 18 : dt = 15.754 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 19 : dt = 17.316 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+image 20 : dt = 16.541 ms, vitesse = (0.000, 30.000, 0.000) deg/s
+
+serie souris simulee : MASALLE_SOURIS_SIMULEE=1, MASALLE_EXIT=60
+image 11 : dt = 14.675 ms, vitesse = (-40.230, 12.923, -4.712) deg/s
+image 12 : dt = 12.935 ms, vitesse = (-47.179, 26.673, -5.303) deg/s
+image 13 : dt = 10.676 ms, vitesse = (-58.323, 46.043, -6.125) deg/s
+image 14 : dt = 12.981 ms, vitesse = (-48.334, 48.192, -4.600) deg/s
+image 15 : dt = 22.096 ms, vitesse = (-28.256, 33.653, -2.349) deg/s
+image 16 : dt = 13.780 ms, vitesse = (-44.516, 61.146, -3.081) deg/s
+image 17 : dt = 14.067 ms, vitesse = (-42.278, 65.408, -2.273) deg/s
+image 18 : dt = 16.796 ms, vitesse = (-33.843, 57.995, -1.259) deg/s
+image 19 : dt = 18.888 ms, vitesse = (-28.315, 53.113, -0.564) deg/s
+image 20 : dt = 17.805 ms, vitesse = (-27.763, 56.540, -0.066) deg/s
+image 21 : dt = 16.073 ms, vitesse = (-27.839, 61.246, 0.417) deg/s
+image 22 : dt = 16.660 ms, vitesse = (-23.704, 56.244, 0.753) deg/s
+image 23 : dt = 25.670 ms, vitesse = (-13.143, 33.725, 0.625) deg/s
+image 24 : dt = 16.607 ms, vitesse = (-16.598, 46.504, 1.027) deg/s
+image 25 : dt = 17.241 ms, vitesse = (-12.212, 38.231, 0.909) deg/s
+image 26 : dt = 15.384 ms, vitesse = (-9.290, 34.394, 0.788) deg/s
+image 27 : dt = 18.081 ms, vitesse = (-4.072, 21.327, 0.378) deg/s
+image 28 : dt = 19.932 ms, vitesse = (-0.176, 11.652, 0.017) deg/s
+image 29 : dt = 17.402 ms, vitesse = (3.827, 4.191, -0.387) deg/s
+image 30 : dt = 20.016 ms, vitesse = (6.788, -4.408, -0.685) deg/s
+
+La série souris est générée dans le programme et sert à tester le calcul; elle ne représente pas un geste physique.
