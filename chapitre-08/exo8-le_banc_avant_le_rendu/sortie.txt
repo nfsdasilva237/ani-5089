@@ -1,0 +1,15 @@
+﻿tour 1 EMPRUNTE OK 0
+tour 1 REND OK 0
+tour 2 EMPRUNTE OK 1
+tour 2 REND OK 1
+tour 3 EMPRUNTE OK 2
+tour 3 REND OK 2
+tour 4 EMPRUNTE OK 0
+tour 4 REND OK 0
+tour 5 EMPRUNTE OK 1
+tour 5 REND OK 1
+tour 6 EMPRUNTE OK 2
+tour 6 REND OK 2
+double emprunt : REFUSE
+rendu sans emprunt : REFUSE
+chaine trop grande : REFUSEE

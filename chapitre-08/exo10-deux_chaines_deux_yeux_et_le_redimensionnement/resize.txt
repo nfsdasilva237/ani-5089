@@ -1,0 +1,7 @@
+detruit chaine gauche
+detruit chaine droit
+redimensionne les cibles
+recree chaine gauche
+recree chaine droit
+reenregistre les poignees gauche
+reenregistre les poignees droit

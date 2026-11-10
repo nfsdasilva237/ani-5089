@@ -1,0 +1,5 @@
+Ce qui se passe sans recreer : les chaines gardent les anciennes poignees, qui ne designent plus les nouvelles images apres le redimensionnement.
+
+Pourquoi reenregistrer ne suffit pas seul : les nouvelles poignees doivent etre stockees dans une chaine neuve; une chaine qui garde l?ancien etat ne connait pas les nouvelles images.
+
+Ce que les deux yeux doivent partager : les dimensions et le meme instant de rendu. Chaque oeil conserve cependant sa propre chaine, son anneau et ses poignees.

@@ -1,0 +1,5 @@
+﻿A quelle image ca s'est fige : aucune pendant les 30 images mesurees sans MASALLE_CORRIGER=1; cette version locale de Vulkan/R3D n'a pas reproduit le figement attendu.
+
+Ce que la pile montrait : aucune pile d'un fil fige n'a pu etre capturee, car le processus a termine normalement. pile.txt consigne ce resultat sans inventer de trace de debogueur.
+
+Pourquoi rien n'est journalise : dans le cas attendu, le thread principal reste bloque dans l'attente du travail GPU avec une passe dimensionnee pour la fenetre et une cible plus petite. Le code ne reprend pas la main pour journaliser. Ce blocage n'a pas ete reproduit sur le backend local.

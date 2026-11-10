@@ -1,0 +1,1 @@
+﻿Aucun processus ne s'est fige pendant l'essai sans MASALLE_CORRIGER : le programme a dessine 30 images puis s'est termine. Il n'y avait donc pas de fil bloque a attacher au debogueur et aucune pile reelle de blocage a copier.

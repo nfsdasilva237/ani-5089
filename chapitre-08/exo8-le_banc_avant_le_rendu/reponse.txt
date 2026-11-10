@@ -1,0 +1,3 @@
+Ce que le banc refuse : le double emprunt, le rendu sans image emprunt?e et une cha?ne de plus de quatre images. Il v?rifie aussi les six tours d?un anneau de trois images et son retour ? l?index z?ro.
+
+Pourquoi un simulateur permissif serait pire : il laisserait passer des erreurs de synchronisation qui sont sanctionn?es par un runtime r?el. Le code pourrait sembler fonctionner avec une image et ?chouer d?s que plusieurs images sont en vol.
