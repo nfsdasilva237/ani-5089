@@ -1,0 +1,5 @@
+Ce qui se passe sur le front : l'objet est attaché uniquement à l'image de transition vers l'appui. Aux images suivantes, changed retombe à 0 et l'objet n'est plus tenu. front.png illustre cet état logique au même instant que la capture de niveau.
+
+Ce qui se passe sur le niveau : l'objet reste attaché à la pose de paume tant que current vaut 1. niveau.png illustre l'objet encore tenu pendant l'appui.
+
+Ce que je teste pour lacher : je teste le relâchement, donc current vaut 0 et changed vaut 1. Le test de front d'appui current && changed sert à saisir, pas à maintenir l'objet.

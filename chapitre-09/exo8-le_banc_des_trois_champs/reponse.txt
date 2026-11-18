@@ -1,0 +1,3 @@
+Ce que dit la colonne change : elle vaut 1 uniquement quand courant change. Pour saisie, cela arrive à l'appui de l'image 2 et au relâchement de l'image 5. Les images 3 et 4 sont des niveaux maintenus, pas de nouveaux fronts.
+
+Ce que dit la colonne actif : elle indique si une source est liée à l'action. L'action non_liee reste inactive et courante à 0, même quand sa valeur presse simulée vaut 1.

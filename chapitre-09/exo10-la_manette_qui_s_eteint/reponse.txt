@@ -1,0 +1,5 @@
+Ce que le programme a cru : quand la manette s'éteint, courant passe à 0 et change à 1. Le code fautif a pris cette transition pour un relâchement volontaire et a lâché l'objet.
+
+Ce qui se passait vraiment : actif vaut 0 pendant les images 6 à 15. Le joueur n'a pas relâché la touche ; la source matérielle a disparu. journal.txt enregistre courant, change et actif sur vingt images.
+
+Ce que je teste maintenant : je ne traite un relâchement que si actif est vrai, courant est faux et change est vrai. Le choix de cet exercice est de garder l'objet pendant la perte temporaire de suivi, puis de le lâcher sur un vrai relâchement reçu d'une manette active. Les images sont des schémas des états simulés, pas des captures d'un casque connecté.

@@ -1,0 +1,6 @@
+1 | saisie 0 0 1 | menu 0 0 1 | non_liee 0 0 0
+2 | saisie 1 1 1 | menu 0 0 1 | non_liee 0 0 0
+3 | saisie 1 0 1 | menu 1 1 1 | non_liee 0 0 0
+4 | saisie 1 0 1 | menu 0 1 1 | non_liee 0 0 0
+5 | saisie 0 1 1 | menu 0 0 1 | non_liee 0 0 0
+6 | saisie 0 0 1 | menu 0 0 1 | non_liee 0 0 0
