@@ -1,0 +1,7 @@
+trame 1 | image 0 | rend OUI | couches 1 | espace STAGE | vues 1.0,1.0
+trame 2 | image 1 | rend OUI | couches 1 | espace STAGE | vues 2.0,2.0
+trame 3 | image - | rend NON | couches 0 | espace - | vues -
+trame 4 | image - | rend NON | couches 0 | espace - | vues -
+trame 5 | image 2 | rend OUI | couches 1 | espace STAGE | vues 5.0,5.0
+trame 6 | image 0 | rend OUI | couches 1 | espace STAGE | vues 6.0,6.0
+FINS 6 | PROCHAINE IMAGE 1

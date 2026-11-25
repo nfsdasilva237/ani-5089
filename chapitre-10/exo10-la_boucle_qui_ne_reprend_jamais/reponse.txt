@@ -1,0 +1,5 @@
+Ou la boucle s'est arretee : la fin de trame etait dans le test de rendu. À la première trame sans rendu, elle n'a pas été appelée ; la trame est restée ouverte et le début suivant a échoué.
+
+Pourquoi aucun message n'est apparu : l'attente et le début de trame ne signalent pas nécessairement cette mauvaise séquence par un message visible. Le journal révèle que debut et fin valent ensuite zéro.
+
+Ce que je fais maintenant a chaque trame : je pompe les événements, j'attends, je commence la trame, je synchronise les actions, je rends si nécessaire, puis j'appelle toujours la fin hors du test de rendu. Les captures sont des schémas de l'état simulé, pas des captures du casque.

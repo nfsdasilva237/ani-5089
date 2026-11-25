@@ -1,0 +1,5 @@
+Ce que la couche dit vraiment : la version juste décrit la vue avec laquelle la scène a été dessinée, à 10 degrés. La version fautive annonce 11,5 degrés alors que ses pixels proviennent toujours du rendu à 10 degrés.
+
+Ce que le compositeur en fait : à la pose d'affichage de 12 degrés, il corrige la vue de la couche juste de 2 degrés. La version fautive ne reçoit qu'une correction de 0,5 degré, car la pose soumise est déjà fraîche.
+
+Pourquoi la pose fraiche ne corrige rien : soumettre la pose courante fait croire au compositeur que l'image a déjà été rendue depuis cette pose. Il applique trop peu de correction et la scène glisse. Les deux images fournies sont des schémas explicatifs, pas des captures d'un casque réel.

@@ -1,0 +1,3 @@
+Pourquoi la trame 5 reprend sur l'image 2 : les trames 3 et 4 n'ont rien dessiné et n'ont donc emprunté aucune image. L'anneau est resté à l'index 2 pendant la pause.
+
+Pourquoi on finit une trame sans rien dessiner : la fin ferme chaque trame commencée, même quand le casque ne demande pas de rendu. Cela permet à l'attente suivante de reprendre normalement.
